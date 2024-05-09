@@ -1,0 +1,42 @@
+@media (max-width: 683px) {
+  .container {
+    /* align-items: flex-start; */
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 5.5rem;
+  }
+  .ques-ans {
+    width: 100%;
+    /* padding: 0.1rem; */
+  }
+  .sider {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    padding-bottom: 1rem;
+    /* overflow-y: auto; */
+    /* font-size: 10rem; */
+  }
+  .result {
+    display: none;
+  }
+  .maindiv {
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+
+    align-items: center;
+    overflow-x: hidden;
+  }
+  .top {
+    height: fit-content;
+  }
+}
+@media (max-width: 389px) {
+  .moto {
+    display: none;
+  }
+}
